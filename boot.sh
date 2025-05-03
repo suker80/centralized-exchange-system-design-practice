@@ -24,5 +24,5 @@ SPRING_OPTION="${SPRING_OPTION} --server.port=${SERVER_PORT}"
 #SPRING_OPTION="${SPRING_OPTION} --spring.profiles.active=production"
 
 echo ${SPRING_OPTION}
-nohup java -jar ./build/libs/currency-0.0.1-SNAPSHOT.jar ${SPRING_OPTION} > ~/buki-log-api.log 2>&1 &
+nohup java -jar ./build/libs/currency-0.0.1-SNAPSHOT.jar ${SPRING_OPTION} > ~/ces-.log 2>&1 &
 # java -jar ./build/libs/log_api-0.0.1-SNAPSHOT.jar ${SPRING_OPTION}
