@@ -1,4 +1,4 @@
-[submodule "src/main/resources/secret"]
-	path = src/main/resources/secret
+[submodule "secret"]
+	path = secret
 	url = https://github.com/suker80/cesdp-secret
     branch = secret-master

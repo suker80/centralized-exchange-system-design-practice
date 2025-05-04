@@ -1,6 +1,5 @@
 rootProject.name = 'crypto'
 
 // 하위 모듈 등록
-include 'core'
+include 'price'
 include 'service'
-include 'web'
