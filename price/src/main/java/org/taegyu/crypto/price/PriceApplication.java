@@ -1,13 +1,13 @@
-package org.taegyu.project.service;
+package org.taegyu.crypto.price;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServiceApplication {
+public class PriceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceApplication.class, args);
+        SpringApplication.run(PriceApplication.class, args);
     }
 
 }

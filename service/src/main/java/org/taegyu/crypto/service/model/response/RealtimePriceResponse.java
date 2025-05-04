@@ -1,4 +1,4 @@
-package org.taegyu.project.service.model.response;
+package org.taegyu.crypto.service.model.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,9 +9,10 @@ import java.math.BigDecimal;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CoinPriceResponse {
+public class RealtimePriceResponse {
 
+    private String coinName;
     private BigDecimal price;
-    private BigDecimal change24h;
+
 
 }

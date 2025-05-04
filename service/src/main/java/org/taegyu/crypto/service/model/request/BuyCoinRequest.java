@@ -1,4 +1,4 @@
-package org.taegyu.project.service.model.request;
+package org.taegyu.crypto.service.model.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
-public class SellCoinRequest {
+public class BuyCoinRequest {
     private BigDecimal amount;
     private BigDecimal price;
 }

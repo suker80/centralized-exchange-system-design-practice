@@ -1,4 +1,4 @@
-package org.taegyu.project.service.controller;
+package org.taegyu.crypto.service.controller;
 
 
 import lombok.RequiredArgsConstructor;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.taegyu.project.service.model.response.CoinPriceResponse;
-import org.taegyu.project.service.model.response.RealtimePriceResponse;
-import org.taegyu.project.service.model.type.CoinType;
+import org.taegyu.crypto.service.model.response.CoinPriceResponse;
+import org.taegyu.crypto.service.model.response.RealtimePriceResponse;
+import org.taegyu.crypto.service.model.type.CoinType;
 
 import java.util.HashMap;
 import java.util.Map;

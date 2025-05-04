@@ -1,9 +1,9 @@
-package org.taegyu.project.service.model.response;
+package org.taegyu.crypto.service.model.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.taegyu.project.service.model.type.TransactionType;
+import org.taegyu.crypto.service.model.type.TransactionType;
 
 import java.math.BigDecimal;
 import java.time.Instant;

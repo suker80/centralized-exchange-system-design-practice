@@ -1,4 +1,4 @@
-package org.taegyu.project.service.model.type;
+package org.taegyu.crypto.service.model.type;
 
 public enum TransactionType {
 

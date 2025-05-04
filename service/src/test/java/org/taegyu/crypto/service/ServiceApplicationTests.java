@@ -1,4 +1,4 @@
-package org.taegyu.project.service;
+package org.taegyu.crypto.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

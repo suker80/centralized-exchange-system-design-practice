@@ -1,10 +1,10 @@
-package org.taegyu.project.service.controller;
+package org.taegyu.crypto.service.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.taegyu.project.service.model.response.TransactionHistoryItemResponse;
+import org.taegyu.crypto.service.model.response.TransactionHistoryItemResponse;
 
 import java.util.List;
 
