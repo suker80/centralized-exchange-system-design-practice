@@ -14,6 +14,6 @@ import java.math.BigDecimal;
 public class PriceEventDto {
 
     private String symbol;
-    private BigDecimal price;
+    private String price;
 
 }
